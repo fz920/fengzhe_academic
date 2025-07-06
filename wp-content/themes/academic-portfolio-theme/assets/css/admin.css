@@ -1,0 +1,90 @@
+/**
+ * Admin Styles for Academic Portfolio Theme
+ */
+
+/* Custom Post Type Icons */
+#menu-posts-research .wp-menu-image:before {
+    content: '\f239';
+}
+
+#menu-posts-publications .wp-menu-image:before {
+    content: '\f331';
+}
+
+#menu-posts-education .wp-menu-image:before {
+    content: '\f118';
+}
+
+#menu-posts-teaching .wp-menu-image:before {
+    content: '\f118';
+}
+
+/* Meta Box Styling */
+.academic-portfolio-meta-box .form-table th {
+    width: 150px;
+    padding: 15px 10px 15px 0;
+}
+
+.academic-portfolio-meta-box .form-table td {
+    padding: 15px 10px;
+}
+
+.academic-portfolio-meta-box .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Admin Notice Styling */
+.academic-portfolio-notice {
+    border-left: 4px solid #3B82F6;
+    background: #E0F2FE;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+.academic-portfolio-notice p {
+    margin: 0;
+    color: #1E40AF;
+}
+
+/* Customizer Preview Styling */
+.customize-control-description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Help Text */
+.academic-portfolio-help {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.academic-portfolio-help h4 {
+    margin-top: 0;
+    color: #3B82F6;
+}
+
+.academic-portfolio-help p {
+    margin-bottom: 0;
+}
+
+/* Custom Fields Styling */
+.academic-portfolio-field-group {
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.academic-portfolio-field-group h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+} 

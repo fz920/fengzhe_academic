@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wordpress_local' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'test-key-1234567890abcdef' );
+define( 'SECURE_AUTH_KEY',  'test-secure-key-1234567890abcdef' );
+define( 'LOGGED_IN_KEY',    'test-logged-in-key-1234567890abcdef' );
+define( 'NONCE_KEY',        'test-nonce-key-1234567890abcdef' );
+define( 'AUTH_SALT',        'test-auth-salt-1234567890abcdef' );
+define( 'SECURE_AUTH_SALT', 'test-secure-auth-salt-1234567890abcdef' );
+define( 'LOGGED_IN_SALT',   'test-logged-in-salt-1234567890abcdef' );
+define( 'NONCE_SALT',       'test-nonce-salt-1234567890abcdef' );
 
 /**#@-*/
 
@@ -89,7 +89,9 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+// Force the correct WordPress URLs
+define('WP_HOME','http://localhost:8000');
+define('WP_SITEURL','http://localhost:8000');
 
 /* That's all, stop editing! Happy publishing. */
 
